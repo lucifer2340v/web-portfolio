@@ -1,8 +1,15 @@
 body{
+    margin: 0;
     font-family: 'Poppins',sans-serif ;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size:40px;
+}
+p{
+    color: dimgray;
 }
 .name-highlight{
     color: blueviolet;
@@ -15,4 +22,44 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightBlue,rgb(91, 145, 195));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.dream-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+.latest-work
+{
+    text-align: center;
+
+}
+.Latest-Half_Width
+{ 
+    width: 25%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 1%;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #ccc;
+   
+}
+.Latest-Half_Width img
+{
+    width: 80%;
+    
 }
