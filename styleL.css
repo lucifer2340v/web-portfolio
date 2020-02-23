@@ -28,7 +28,8 @@ p{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    height: 550px;
+    padding:100px;
 }
 .link-button{
     text-decoration: none;
@@ -40,9 +41,10 @@ section{
 
 }
 .dream-area{
-    float: left;
-    background-image: url("images/exp-bg.png");
+    background-size: 100%;
+    background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
+    background-position:center ;
 }
 a:hover
 {
@@ -51,7 +53,7 @@ a:hover
     box-shadow: 10px 10px 40px gray;
 }
 
-.Half_Width{
+.half_Width{
     width: 40%;
     float: left;
     margin-left: 5%;
@@ -64,7 +66,7 @@ a:hover
 }
 
 .Latest-Work{
-    margin-top: 20%;
+    margin-top: 2%;
     text-align: center;
 
 }
@@ -98,7 +100,7 @@ a:hover
     text-align: center;
     width: 20%;
     float: left;
-    margin-left: 5.5%;
+    margin-left: 2%;
     box-shadow: 0 0 25px #ccc;
     min-height: 350px;
     padding-top: 20px;
